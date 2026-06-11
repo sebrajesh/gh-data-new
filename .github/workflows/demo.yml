@@ -38,7 +38,7 @@ jobs:
       - name: download artifact
         uses: actions/download-artifact@v8
         with:
-          name: dist-fiels
+          name: dist-files
       - name: Output contents
         run: ls
       - name: Deploy
